@@ -1,0 +1,6 @@
+# Qucs 0.0.18  /media/camilo/main_storage/workspaces/camilo_projects/wah_pedal_circuit/simulation_qucs/wah_circuit_simulation_qucs_prj/wah_circuit_simulation_qucs.sch
+
+R:R1 divided _net0 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R2 gnd divided R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+.DC:DC1 Temp="26.85" reltol="0.001" abstol="1 pA" vntol="1 uV" saveOPs="no" MaxIter="150" saveAll="no" convHelper="none" Solver="CroutLU"
+Vdc:V1 _net0 gnd U="1 V"

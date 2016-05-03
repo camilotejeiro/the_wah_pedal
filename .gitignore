@@ -1,0 +1,5 @@
+# No pdf articles, it is copyrighted with no sharing by Geofex ... whatev 
+*.pdf
+
+# No xournal files, it is copyright... you get the point.
+*.xoj
